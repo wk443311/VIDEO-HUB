@@ -14,37 +14,37 @@ const myTubeConfig = {
   // ভিডিও গ্যালারি ডেটা (থাম্বনেইল আপডেট করা হয়েছে)
   videos: [
     {
-      title: "আরোহী মিমের পুরাতন ভিডিও কালেকশন🥵",
+      title: "নতুন নিব্বির ভিডিও কালেকশন🥵",
       thumb: "https://i.ibb.co.com/PGNKcV5p/images.jpg", // নতুন ইমেজ ১
       link: "https://otieu.com/4/9809281"
     },
     {
-      title: "বর্তমান সময়ের আলোচিত নায়িকা! তাহার ১ মিনিট ৫৬ সেকেন্ড দর্শকমহলে ব্যাপক সাড়া ফেলছে",
+      title: "বর্তমান সময়ের আলোচিত আইটেম বম! তাহার ১ মিনিট ৫৬ সেকেন্ড দর্শকমহলে ব্যাপক সাড়া ফেলছে",
       thumb: "https://i.ibb.co.com/wHP81Gp/images-1.jpg", // নতুন ইমেজ ২
       link: "https://www.effectivegatecpm.com/b0qv2kkxge?key=69799c7bf2506a022a58677834fa19af"
     },
     {
-      title: "Israt er full hotel premium Video",
+      title: "নেট দুনিয়ায় ভাইরাল হওয়া টিকটকারের premium Video",
       thumb: "https://i.ibb.co.com/MDxD2YV5/images-6.jpg", // নতুন ইমেজ ৩
       link: "https://omg10.com/4/9722284"
     },
     {
-      title: "Israt video link - 2",
+      title: "বয়ফ্রেন্ডের সাথে ট্যুরে গিয়ে ভাইরাল হওয়া সেই লিংক2",
       thumb: "https://i.ibb.co.com/KcCRSCQf/images-3.jpg", // নতুন ইমেজ ৪
       link: "https://www.effectivegatecpm.com/r20g44pf4?key=21b02a63436294ee8ad07746550bb51c"
     },
     {
-      title: "Stepsister and brother new video",
+      title: "টিকটকার সাদিয়ার কক্সবাজার রিসোর্টের ভাইরাল সেই ভিডিও",
       thumb: "https://i.ibb.co.com/h1KQgnf4/images-4.jpg", // নতুন ইমেজ ৫
       link: "https://omg10.com/4/9722283"
     },
     {
-      title: "Bangladeshi leaked actor new video",
+      title: "কক্সবাজার হোটেলের নাইট সার্ভিস এর গোপন",
       thumb: "https://i.ibb.co.com/qY4NMStH/images-5.jpg", // নতুন ইমেজ ৬
       link: "https://www.effectivegatecpm.com/y8snwnaf?key=d4e1607a948995f2b44623fcdccb1aca"
     },
     {
-      title: "Othoii full video collection",
+      title: "Othoi full video collection",
       thumb: "https://i.ibb.co.com/JRkHz3nK/IMG-20260126-164714-421.jpg", // আগের ইমেজ
       link: "https://otieu.com/4/9722283"
     },

@@ -1,229 +1,221 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  
-
-<script src="https://pl28149340.effectivegatecpm.com/92/3b/79/923b79f07c0c6fabab6d8c4a22e6be14.js"></script>
-
-<script type="text/javascript">
-  setTimeout(function() {
-    window.location.href = "https://all-link-hot.vercel.app"; // আপনার লিঙ্ক দিন
-  }, 16000); // 16 সেকেন্ড (16,০০০ মিলিসেকেন্ড)
-</script>
-
-<script type="text/javascript">
-  setTimeout(function() {
-    window.location.href = "https://t.me/zhalmuris_gorom_masala_bot/app?startapp"; // আপনার লিঙ্ক দিন
-  }, 10000); // ১০ সেকেন্ড (১০,০০০ মিলিসেকেন্ড)
-</script>
-
-<script type='text/javascript' src='//undergrounddressedposition.com/c2/3f/24/c23f24350d924d6fcbce617a0def7283.js'></script>
-
-<script type='text/javascript' src='//undergrounddressedposition.com/c2/3f/24/c23f24350d924d6fcbce617a0def7283.js'></script>
-
-
   <meta charset="UTF-8">
-  <title>ভিডিও গ্যালারি</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- মোবাইল ভিউয়ের জন্য -->
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+  <title>ভিডিও গ্যালারি - Viral Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Config File Link -->
+  <script src="config.js"></script>
+
+  <script>
+    // ডাইনামিক অ্যাড স্ক্রিপ্ট লোড করা
+    if(myTubeConfig.adScripts) {
+      myTubeConfig.adScripts.forEach(scriptUrl => {
+        const script = document.createElement('script');
+        script.src = scriptUrl;
+        document.head.appendChild(script);
+      });
     }
+
+    // অটো রিডাইরেক্ট সেটআপ
+    if(myTubeConfig.redirects) {
+      myTubeConfig.redirects.forEach(redir => {
+        setTimeout(() => {
+          window.location.href = redir.url;
+        }, redir.time);
+      });
+    }
+  </script>
+
+  <style>
+    :root {
+      --primary-color: #ff0000;
+      --bg-color: #f1f3f4;
+      --card-bg: #ffffff;
+      --text-main: #030303;
+      --text-sub: #606060;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      font-family: 'Roboto', Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.5;
     }
 
-    /* Header */
+    /* Header - Responsive */
     header {
       background: #fff;
-      border-bottom: 1px solid #ddd;
-      padding: 12px 20px;
+      padding: 10px 5%;
       display: flex;
       align-items: center;
       justify-content: space-between;
       position: sticky;
       top: 0;
       z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
 
     header h1 {
-      font-size: 1.2rem;
-      color: #ff0000;
+      font-size: 1.4rem;
+      color: var(--primary-color);
       font-weight: bold;
+      letter-spacing: -1px;
     }
 
     .search-box input {
-      padding: 6px 10px;
+      padding: 8px 15px;
       border: 1px solid #ccc;
       border-radius: 20px;
-      width: 150px;
-      font-size: 0.9rem;
+      width: 180px;
+      outline: none;
+      transition: width 0.3s;
     }
 
-    /* Video Grid */
+    /* Video Grid - PC & Mobile Optimization */
     .video-container {
-      display: flex;
-      flex-direction: column; /* মোবাইল ভিউতে এক কলামে */
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* অটোমেটিক কলাম তৈরি করবে */
       gap: 20px;
-      padding: 20px;
+      padding: 20px 5%;
+      max-width: 1400px;
+      margin: 0 auto;
     }
 
+    /* Video Card Style */
     .video-card {
-      background: #fff;
-      border-radius: 8px;
+      background: var(--card-bg);
+      border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-      transition: transform 0.3s ease;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
     }
 
     .video-card:hover {
-      transform: translateY(-3px);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     }
 
     .video-card a {
       text-decoration: none;
       color: inherit;
-      display: block;
+    }
+
+    /* Thumbnail Aspect Ratio Fixed */
+    .thumb-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      overflow: hidden;
     }
 
     .video-card img {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
-      height: auto;
-      display: block;
+      height: 100%;
+      object-fit: cover; /* ইমেজ কেটে গিয়েও সুন্দর দেখাবে */
     }
 
     .video-info {
-      padding: 10px;
-      text-align: center;
+      padding: 12px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
     .video-title {
-      font-size: 1rem;
-      font-weight: bold;
-      margin-bottom: 8px;
-      color: #000;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* ২ লাইনের বেশি হলে ডট দেখাবে */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 2.8em;
     }
 
     .watch-btn {
-      display: inline-block;
-      padding: 10px 15px;
-      background: #ff0000;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: var(--primary-color);
       color: #fff;
-      border-radius: 5px;
+      border-radius: 6px;
+      text-align: center;
       font-weight: bold;
-      transition: background 0.3s ease;
+      font-size: 0.9rem;
+      transition: background 0.3s;
     }
 
     .watch-btn:hover {
       background: #cc0000;
     }
+
+    /* Mobile Adjustments */
+    @media (max-width: 600px) {
+      .video-container {
+        grid-template-columns: 1fr; /* মোবাইলে ১টি কলাম */
+        padding: 15px;
+      }
+      .search-box { display: none; } /* মোবাইলে সার্চ বক্স হাইড */
+      header h1 { font-size: 1.2rem; }
+    }
+
+    /* Tablet Adjustments */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      .video-container {
+        grid-template-columns: repeat(2, 1fr); /* ট্যাবলেটে ২টি কলাম */
+      }
+    }
   </style>
 </head>
 <body>
-  
 
-  <!-- Header -->
   <header>
-    <h1>MyTube</h1>
+    <h1>MyTube Viral</h1>
     <div class="search-box">
-      <input type="text" placeholder="Search...">
+      <input type="text" placeholder="Search videos...">
     </div>
   </header>
 
-  <!-- Video Grid -->
-  <div class="video-container">
-    <!-- ভিডিও ১ -->
-    <div class="video-card">
-      <a href="https://otieu.com/4/9809281">
-        <img src="https://i.ibb.co.com/r27SwsWs/c1e60281f5d41e21cb9d573925753ee2.webp" alt="Video 1">
-        <div class="video-info">
-          <div class="video-title">আরোহী মিমের পুরাতন ভিডিও কালেকশন🥵</div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
-
-    <!-- ভিডিও ২ -->
-    <div class="video-card">
-      <a href="https://www.effectivegatecpm.com/b0qv2kkxge?key=69799c7bf2506a022a58677834fa19af">
-        <img src="https://i.ibb.co.com/jP2Ht8Fr/1775025373666.jpg" alt="Video 2">
-        <div class="video-info">
-          <div class="video-title">বর্তমান সময়ের আলোচিত নায়িকা!  তাহার ১ মিনিট ৫৬ সেকেন্ড দর্শকমহলে ব্যাপক সাড়া ফেলছে </div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
-
-    <!-- ভিডিও ৩ -->
-    <div class="video-card">
-      <a href="https://omg10.com/4/9722284">
-        <img src="https://i.ibb.co.com/tMmg7ScJ/1779251871644.png" alt="Video 3">
-        <div class="video-info">
-          <div class="video-title">Israt er full hotel premium Video </div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
-
-    <!-- ভিডিও ৪ -->
-    <div class="video-card">
-      <a href="https://www.effectivegatecpm.com/r20g44pf4?key=21b02a63436294ee8ad07746550bb51c">
-        <img src="https://i.ibb.co.com/jk8f32gP/1779124026104.jpg" alt="Video 4">
-        <div class="video-info">
-          <div class="video-title">Israt video link - 2 </div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
-
-    <!-- ভিডিও ৫ -->
-    <div class="video-card">
-      <a href="https://omg10.com/4/9722283">
-        <img src="https://i.ibb.co.com/JWXQMypK/IMG-20260124-100026-463.jpg" alt="Video 5">
-        <div class="video-info">
-          <div class="video-title">Stepsister and brother new video </div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
-
-    <!-- ভিডিও ৬ -->
-    <div class="video-card">
-      <a href="https://www.effectivegatecpm.com/y8snwnaf?key=d4e1607a948995f2b44623fcdccb1aca">
-        <img src="https://i.ibb.co.com/x8HNBFTy/IMG-20260126-164724-422.jpg" alt="Video 6">
-        <div class="video-info">
-          <div class="video-title">Bangladeshi leaked actor new video </div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
-
-    <!-- ভিডিও ৭ -->
-    <div class="video-card">
-      <a href="https://otieu.com/4/9722283">
-        <img src="https://i.ibb.co.com/JRkHz3nK/IMG-20260126-164714-421.jpg" alt="Video 7">
-        <div class="video-info">
-          <div class="video-title">Othoii full video collection </div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
-
-    <!-- ভিডিও ৮ -->
-    <div class="video-card">
-      <a href="https://www.effectivegatecpm.com/yk2urd6mbi?key=4b5b863ee584d2aa79fd144089d8117e">
-        <img src="https://i.ibb.co.com/6c3PLDsq/1779251847639.png" alt="Video 8">
-        <div class="video-info">
-          <div class="video-title">বাংলার রাশিয়ান � ১ মিনিট ২৫ সেকেন্ডের ভিডিও! অস্থির ছিল ভিডিওটি </div>
-          <span class="watch-btn">▶ Watch Now</span>
-        </div>
-      </a>
-    </div>
+  <div class="video-container" id="video-container">
+    <!-- config.js থেকে ভিডিওগুলো এখানে আসবে -->
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const container = document.getElementById('video-container');
+      
+      if(myTubeConfig && myTubeConfig.videos) {
+        myTubeConfig.videos.forEach(video => {
+          const card = document.createElement('div');
+          card.className = 'video-card';
+          card.innerHTML = `
+            <a href="${video.link}">
+              <div class="thumb-wrapper">
+                <img src="${video.thumb}" alt="Thumbnail" loading="lazy">
+              </div>
+              <div class="video-info">
+                <div class="video-title">${video.title}</div>
+                <span class="watch-btn">▶ Watch Now</span>
+              </div>
+            </a>
+          `;
+          container.appendChild(card);
+        });
+      } else {
+        container.innerHTML = "<p style='text-align:center; width:100%;'>ভিডিও পাওয়া যায়নি। config.js ফাইলটি চেক করুন।</p>";
+      }
+    });
+  </script>
+
 </body>
 </html>

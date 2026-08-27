@@ -19,8 +19,8 @@ const myTubeConfig = {
       link: "https://otieu.com/4/9809281"
     },
     {
-      title: "বর্তমান সময়ের আলোচিত আইটেম বম! তাহার ১ মিনিট ৫৬ সেকেন্ড দর্শকমহলে ব্যাপক সাড়া ফেলছে",
-      thumb: "https://i.ibb.co.com/wHP81Gp/images-1.jpg", // নতুন ইমেজ ২
+      title: "নেট দুনিয়ার ভাইরাল হওয়া Instagram এর ক্রাশ সুমাইয়া সাঈদ আপুর ভিডিও দেখতে নিচের বাটনে ক্লিক করুন",
+      thumb: "https://i.ibb.co.com/jP5kLHZW/FB-IMG-1787849046624.jpg", // নতুন ইমেজ ২
       link: "https://www.effectivegatecpm.com/b0qv2kkxge?key=69799c7bf2506a022a58677834fa19af"
     },
     {

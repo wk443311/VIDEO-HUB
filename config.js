@@ -1,7 +1,7 @@
 const myTubeConfig = {
   // অ্যাড স্ক্রিপ্ট লিঙ্কসমূহ
   adScripts: [
-    "https://pl28149340.effectivegatecpm.com/92/3b/79/923b79f07c0c6fabab6d8c4a22e6be14.js",
+    "https://akconstructioncareerdays.org/1/cbf65f5fd1c47085ab8da2a39a5d091d",
     "//undergrounddressedposition.com/c2/3f/24/c23f24350d924d6fcbce617a0def7283.js"
   ],
 
